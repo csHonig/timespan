@@ -47,22 +47,19 @@ void test2() {
     assert((ts3 * 5) == ts3);
 }
 
-/*
- * Broken test
 void test3() {
     TimeSpan ts0(0, 0, 0);
     TimeSpan ts1(0, 0, 1);
     TimeSpan ts2 = ts0 - ts1;
     stringstream ss;
     ss << ts2;
-    assert(ss.str() == "-1:59:59");
+    assert(ss.str() == "-0:00:01");
 }
-*/
 
 void testAll() {
     test1();
     test2();
-    // test3();
+    test3();
 }
 
 int main() {
