@@ -10,8 +10,8 @@ class TimeSpan {
   friend ostream &operator<<(ostream& output, const TimeSpan& timespan);
 
 public:
-  // explicit TimeSpan(int hour = 0, int minute = 0, int second = 0);
-  explicit TimeSpan(double hour = 0, double minute = 0, double second = 0);
+  // explicit TimeSpan(int hours = 0, int minutes = 0, int seconds = 0);
+  explicit TimeSpan(double hours = 0, double minutes = 0, double seconds = 0);
   // add
   TimeSpan operator+(const TimeSpan& timespan) const;
   // subtract
