@@ -18,7 +18,7 @@ TimeSpan TimeSpan::operator-(const TimeSpan& timespan) const {
   return ts;
 }
 
-TimeSpan TimeSpan::operator*(int Number) {
+TimeSpan TimeSpan::operator*(int number) {
   TimeSpan ts;
   return ts;
 }
