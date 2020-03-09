@@ -1,3 +1,6 @@
 /.idea/
 /cmake-build-debug/
 /myprogram.dSYM/
+/.vs/
+/out/
+/.vscode/
